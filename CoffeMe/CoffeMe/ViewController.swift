@@ -27,9 +27,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell:UITableViewCell = self.tableView.dequeueReusableCellWithIdentifier("RoyTableCell") as UITableViewCell
+        var cell:RoyTableCellview = self.tableView.dequeueReusableCellWithIdentifier("RoyTableCell") as RoyTableCellview
         
-        cell.textLabel?.text = self.transportItems[indexPath.row]
+        cell.text_1?.text = self.transportItems[indexPath.row]
+        cell.text_2?.text = self.transportItems[indexPath.row]
         
         return cell
     }

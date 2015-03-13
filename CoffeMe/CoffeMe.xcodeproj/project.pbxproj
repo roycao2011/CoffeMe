@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD01DBF81AB2C1D100B423F4 /* RoyTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD01DBF71AB2C1D100B423F4 /* RoyTableCellView.swift */; };
 		ADA6E1AB1AAC145600F16DFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6E1AA1AAC145600F16DFE /* AppDelegate.swift */; };
 		ADA6E1AD1AAC145600F16DFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6E1AC1AAC145600F16DFE /* ViewController.swift */; };
 		ADA6E1B01AAC145600F16DFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA6E1AE1AAC145600F16DFE /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD01DBF71AB2C1D100B423F4 /* RoyTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoyTableCellView.swift; sourceTree = "<group>"; };
 		ADA6E1A51AAC145600F16DFE /* CoffeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA6E1A91AAC145600F16DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADA6E1AA1AAC145600F16DFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				ADA6E1AA1AAC145600F16DFE /* AppDelegate.swift */,
 				ADA6E1AC1AAC145600F16DFE /* ViewController.swift */,
 				ADA6E1AE1AAC145600F16DFE /* Main.storyboard */,
+				AD01DBF71AB2C1D100B423F4 /* RoyTableCellView.swift */,
 				ADA6E1B11AAC145600F16DFE /* Images.xcassets */,
 				ADA6E1B31AAC145600F16DFE /* LaunchScreen.xib */,
 				ADA6E1A81AAC145600F16DFE /* Supporting Files */,
@@ -214,6 +217,7 @@
 			files = (
 				ADA6E1AD1AAC145600F16DFE /* ViewController.swift in Sources */,
 				ADA6E1AB1AAC145600F16DFE /* AppDelegate.swift in Sources */,
+				AD01DBF81AB2C1D100B423F4 /* RoyTableCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				ADA6E1C61AAC145600F16DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADA6E1C71AAC145600F16DFE /* Build configuration list for PBXNativeTarget "CoffeMeTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				ADA6E1C91AAC145600F16DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
